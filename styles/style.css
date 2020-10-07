@@ -18,5 +18,8 @@ header {
   width: 100%;
   min-height: 100vh;
   padding: 100px;
-  background: url(image/foto.jpg);
+  background: url(https://lh3.googleusercontent.com/rAxQ6rQZ-iqx9hUrt2kb553YWrcF8dxAJTIckj3ELlptNcwFckpG47i01JuJt4LteqjS6Tbk-cYf2kGAPOjX5hiFeZF7orli7mfB7OYAig-UP386aQQQS0vREs4oGRsRXSzy18sHz8Hr4KvSuuuZCx1GVMwBoAAXcZhC0YqPYL1B2SnlgTLWnJVI8F9aS8JaR8epzJz2HeSWIb8zQw0n7soA98fuecrDeU7mJzQcS9RPU8SXLWak4rycEa8HhTdt844_zT0P4Ps0RnSAsiprfwX1peQVUHQ4PNm6CGflQf7KC0AuORJTTquzXtVhP3q8sylP2EX3jTuCBaMOnUHUiE4NW2RtpW8ffZMI4EffoBkuxXQ_Marn8LQ2OxscFNrlOZPRHEmud47GPAkUqdfbxrKV6E8Hf0MfD5Y1O4vNkS0XraRzup1gW-0JmOOts89l1pL1BVMiClFDrhU4WmPY23MSXnbu_6NFX514wPq493LVFOkN4sJmjxsGSm0KBVHK0EOorq3yXgn7CYH1P8umirtpIkM42VvYdw7LrQvCNwzq7Wcf-ibBGzrr_57H2vKw6MYXxw0M4sUhnNuAXaqajRNcskbfl3oMXInKd-RkShW9NEJT4EDLEPQLNhYjiVVEv-M7kxLauX_nchtpmPJPXy84WsPTlqzH9RATCq_7cKDZuO1TSDEnAb2-lzZR=s83-no?authuser=0);
+  background-size: cover;
+  display: flex;
+  align-items: center;
 }
