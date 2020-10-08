@@ -145,6 +145,7 @@ header #toggle:after {
   display: flex;
   flex-direction: column;
   right: 100px;
+  
 
 }
 .sci li {
