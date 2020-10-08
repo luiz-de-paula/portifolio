@@ -51,10 +51,15 @@ header #toggle:after {
   height: 2px;
   background: #fff;
 }
-.banner.active header #toggle:before {
+.banner.active header #toggle::before {
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%) rotate(deg);
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+.banner.active header #toggle::after {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-45deg);
 }
 .banner {
   position: relative;
