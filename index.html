@@ -10,7 +10,7 @@
   <section class="banner" id="sec">
     <header>
       <a href="#" class="logo"><h1>LUIZ HENRIQUE DE PAULA</h1></a>
-      <div id="toggle" onclick="toggle"></div>
+      <div id="toggle" onclick="toggle()"></div>
     </header>
     <div class="content">
       <h2>Olá, <br> Eu sou o <span>Luiz Henrique</span></h2>
@@ -18,7 +18,7 @@
       e sou estudante de Serviço Social da Estácio de Sá - Resende. <br>
       Estou a procura de uma oportunidade para desenvolver meus talentos e com isso poder contribuir <br>
       de alguma forma para o crescimento de quem estiver me dando a oportunidade de mostrar meus talentos.</p>
-      <a href="#">Sobre mais</a>
+      <a href="#">Saiba mais</a>
     </div>
     <ul class="sci">
       <li><a href="#"><img src="facebook.png" alt=""></a></li>
@@ -36,10 +36,12 @@
       <li><a href="#">Portfolio</a></li>
     </ul>
   </div>
-  <script type="javascript">
+  <script type="text/javascript">
     function toggle(){
       var sec = document.getElementById('sec');
-      sec.classList.toggle('active');
+      var nav = document.getElementById('navigation');
+      sec.classList.toggle('active')
+      nav.classList.toggle('active')
     }
   </script>
   
